@@ -40,7 +40,7 @@ private:
     int m_height;
     bool        m_opened;
     CvCapture*  m_camera;   // 视频获取结构， 用来作为视频获取函数的一个参数
-    IplImage*   m_frame;    // 申请IplImage类型指针，就是申请内存空间来存放每一帧图像
+    //IplImage*   m_frame;    // 申请IplImage类型指针，就是申请内存空间来存放每一帧图像
 };
 
 #endif // MYCAMERA_H
