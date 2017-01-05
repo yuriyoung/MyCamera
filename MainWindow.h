@@ -33,7 +33,7 @@ private slots:
     void recvFrame(const QImage &frame);
 
     void takePhoto();
-    void clearViewr();
+    void clearViewer();
     void addPhotoToList(const QPixmap &photo, const QString &name);
     bool savePhoto(const QImage &image, const QString &basename);
     bool openPhoto(QListWidgetItem *item);

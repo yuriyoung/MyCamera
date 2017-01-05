@@ -71,7 +71,7 @@ void MainWindow::openCamara()
 void MainWindow::closeCamara()
 {
     m_camera->close();
-    QTimer::singleShot(200, this, SLOT(clearViewr()));
+    QTimer::singleShot(200, this, SLOT(clearViewer()));
     updateUI();
 }
 
@@ -96,7 +96,7 @@ void MainWindow::takePhoto()
     addPhotoToList(QPixmap::fromImage(img), photo);
 }
 
-void MainWindow::clearViewr()
+void MainWindow::clearViewer()
 {
     ui->camViewer->clear();
 }
